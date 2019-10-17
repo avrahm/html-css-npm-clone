@@ -1,0 +1,258 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Helvetica, sans-serif;
+  font-size: 10px;
+}
+
+h1 {
+  font-size: 5em;
+  font-weight: 30;
+}
+
+h2 {
+  font-size: 3em;
+  font-weight: 10;
+}
+
+nav {
+  background-color: #C12127;
+  color: rgba(255,255,255,0.8);
+  padding: 15px;
+  height: 15px;
+}
+
+nav a {
+  color: rgba(255,255,255,0.8);
+  text-decoration: none;
+}
+
+
+.top-left {
+  float: left;
+}
+
+.top-left .heart {
+  padding: 4px
+}
+
+.top-links {
+  display: inline-block;
+  float: right;
+  padding: 0;
+  margin: 0 20px 0 0;
+}
+
+.top-links li {
+  display: inline-block;
+  margin: 0 10px;
+  text-align: center;
+}
+
+.clearfix {
+  clear: both;
+}
+
+header {
+  background-image: url('images/city-scape.svg');
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  background-color: rgb(32, 101, 136);
+  padding: 20px;
+}
+
+header .header-logo {
+  float: left;
+  padding: 0 20px 0 0;
+}
+
+header .header-right {
+  float: left;
+  line-height: 31px;
+  padding: 0 0 0 20px;
+}
+
+header .header-right span {
+  display: inline-block;
+  vertical-align: middle;
+  line-height: 31px;
+}
+
+header .header-search {
+  float: left;
+  height: 31px;
+  width: 31px;
+  background-color: rgb(31, 82, 111);
+  color: grey;
+  border: 1px darkgrey solid;
+}
+
+header .header {
+  width: 100%;
+  padding: 0 20px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+header .header a {
+  color: white;
+}
+
+header .header-search-bar {
+  background-color: rgb(31, 82, 111);
+  color: grey;
+  border: 1px darkgrey solid;
+  width: 65%;
+  float: left;
+  height: 25px;
+  padding: 2px;
+}
+
+header .header-content {
+  margin: 0 auto 0 10px;
+  width: 50%;
+  padding: 50px;
+}
+
+header .header-content p {
+  padding: 5px;
+  margin: 0 15px;
+  font-size: 1.5em;
+}
+
+header .header-content a {
+  background-color: rgb(240, 146, 51);
+  color: white;
+  font-size: 1.5em;
+  float: left;
+  letter-spacing: 0.5px;
+  text-align: center;
+  text-decoration: none;
+  display: block;
+  width: 150px;
+  margin: 40px auto 0 auto;
+  padding: 14px 20px 14px 20px;
+  border-radius: 20px;
+}
+
+#features {
+  background-color: rgb(39, 53, 71);
+  color: white;
+  height: 400px;
+}
+
+#features .features-container {
+  text-align: left;
+  margin: 0 auto;
+  width: 70%;
+  padding-top: 70px;
+}
+
+#features .features-content {
+  width: 45%;
+  float: right;
+}
+
+#features ul {
+  line-height: 2em;
+  padding: 20px;
+  margin: 0 5px 0 0;
+}
+
+#features p {
+  color: white;
+  padding: 20px;
+}
+
+#features a {
+  text-decoration: none;
+  color: white;
+}
+
+#features .features-content .features-link-btn {
+  background-color: rgb(203, 56, 55);
+  color: white;
+  font-size: 1.5em;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  width: 150px;
+  margin: 40px auto 0 auto;
+  padding: 14px 20px 14px 20px;
+  border-radius: 20px;
+}
+
+#pricing {
+  background-image: url('images/forklift.svg');
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: white;
+  background-color: rgb(32, 101, 136);
+  padding: 20px;
+  height: 400px;
+  position: relative;
+}
+
+#pricing .pricing-content {
+  width: 40%;
+  position: absolute;
+  padding: 50px 50px;
+}
+
+#pricing .pricing-content p {
+  font-size: 1.8em;
+  line-height: 1em;
+  padding: 40px;
+  text-align: left;
+}
+
+#pricing .pricing-content .pricing-link-btn {
+  background-color: rgb(49, 68, 88);
+  color: white;
+  font-size: 1.5em;
+  letter-spacing: 0.5px;
+  text-decoration: none;
+  width: 150px;
+  margin: 40px auto 0 auto;
+  padding: 14px 20px 14px 20px;
+  border-radius: 20px;
+}
+
+#documentation {
+  text-align: center;
+  background-color: white;
+  padding: 40px;
+}
+
+#documentation h1,h2,h3 {
+  color: rgb(83, 88, 98);
+}
+
+#documentation p {
+  color: rgb(135, 145, 156);
+  padding: 30px;
+}
+
+#documentation a {
+  color: rgb(208, 74, 73);
+}
+
+#documentation img {
+  padding: 5px;
+}
+
+#documentation .documentation-content {
+  width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+#documentation .documentation-box {
+  width: 33%;
+  float: left;
+}
